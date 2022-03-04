@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+label.custom-select {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.custom-select select {
+  display: inline-block;
+  border-radius: 5px;
+  width: 100px;
+  height: 35px ;
+  margin: 0;
+  font: inherit;
+  line-height: 1.2;
+  background: rgb(218, 252, 241);
+  border: 0;
+  outline: none;
+}
+.nav-color {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 100px;
+}
+
+.nav-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 6px;
+    display: inline-flex;
+}
+
+/* style nav-div */
+.nav-div img {
+  width: 150px;
+  height: 35px;
+}
+
+.nav-div input[type="text"] {
+  padding: 6px;
+  
+  font-size: 17px;
+  border: none;
+  outline: none;
+  background-color: none;
+}
+.svg-select{
+    padding: 0 0;
+    
+}
+ 
+
+.nav-div .search-container button {
+  float: right;
+  height: 8px;
+  background: none;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-all{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-contact{
+  /* background-image: linear-gradient(to right red , blue) !important; */
+  background-color: rgb(218, 252, 241);
+}
+
+.contact{
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contact-num h5{
+  margin: 0;
+}
+
+.right-nav{
+ display: flex;
+ align-items: center;  
+ gap: 20px;
+ 
+}
+.right-nav p {
+  margin: 0;
+}
+
+.wishlist{
+text-align: center;
+}
+hr {
+  padding: 0%;
+  margin: 0%;
+}
+.nav-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  background-color: rgb(233, 247, 244);
+}
+
+.nav-bottom-start{
+  display: inline-flex;
+  align-items: center;
+  border-right: 1px solid black;
+  gap: 6px;
+}
+
+.nav-bottom-start h4 {
+  margin: 0;
+}
+
+.nav-route{
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  gap: 40px;
+}
+
+
+/* image icon style */
+.image-icon{
+  width: 45%;
+  
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px;
+  object-fit: cover;
+}
