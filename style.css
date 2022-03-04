@@ -142,3 +142,21 @@ hr {
   padding: 10px;
   object-fit: cover;
 }
+
+.Flash-image img{
+  width: 130px;
+}
+
+.cart-text{
+  font-size: 12px;
+}
+ 
+.add-cart{
+  display: inline-block;
+}
+
+ 
+
+.myRange{
+  width: 75%;
+}
